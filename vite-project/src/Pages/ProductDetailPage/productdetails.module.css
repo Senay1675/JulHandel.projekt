@@ -1,0 +1,139 @@
+/* productdetails.module.css */
+/* .product-details {
+
+    margin: 20px;
+    padding: 2rem;
+    background-color: #f8f9fa; 
+   min-height: 100vh; 
+    font-family: Arial, sans-serif;
+    
+
+  
+    padding: 1rem 2rem;
+    background-color: #f4f4f4; 
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-details img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-details .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d32f2f;
+  }
+  
+  .product-details .stock {
+    font-size: 1rem;
+    color: #2e7d32; 
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .product-details .category {
+    font-size: 1rem;
+    color: #1976d2; 
+  }
+  /*
+  
+
+  /* productdetails.module.css */
+
+.product-details {
+  margin: 20px auto;
+  max-width: 800px; /* Begränsa sidbredden för bättre fokus */
+  padding: 2rem;
+  background-color: #ffffff; /* Neutral bakgrundsfärg */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Djup för kortet */
+  font-family: Arial, sans-serif;
+}
+
+.product-details h1 {
+  font-size: 2.2rem;
+  color: #2c3e50; /* Mörk textfärg */
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.product-details img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Skugga för bilden */
+}
+
+.product-details p {
+  font-size: 1rem;
+  color: #4a4a4a;
+  line-height: 1.5; /* Lättare läsbarhet */
+  margin-bottom: 0.8rem;
+}
+
+.product-details .price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #e74c3c; /* Stark röd för priset */
+  margin-bottom: 1rem;
+}
+
+.product-details .stock {
+  font-size: 1.2rem;
+  color: #27ae60; /* Grön för lagerstatus */
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.product-details .category {
+  font-size: 1.1rem;
+  color: #2980b9; /* Blå för kategori */
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.product-details .description {
+  font-size: 1rem;
+  color: #7f8c8d; /* Dämpad grå för beskrivning */
+  margin-bottom: 1rem;
+}
+
+/* Responsiv design */
+@media (max-width: 600px) {
+  .product-details {
+    padding: 1.5rem;
+  }
+
+  .product-details h1 {
+    font-size: 1.8rem;
+  }
+
+  .product-details p {
+    font-size: 0.9rem;
+  }
+
+  .product-details .price {
+    font-size: 1.2rem;
+  }
+}
